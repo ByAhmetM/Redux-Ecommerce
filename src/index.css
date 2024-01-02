@@ -1,0 +1,19 @@
+body {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  overflow-x: hidden;
+}
+
+
+.active {
+  box-shadow: 0 0 20px 5px #fc0303;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+  background-color: white;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #fc0303;
+}
